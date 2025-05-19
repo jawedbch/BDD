@@ -21,7 +21,7 @@ CREATE TABLE G11_stocke (
   mag_id INT NOT NULL,
   FOREIGN KEY (cap_id) REFERENCES G11_capsule(cap_id),
   FOREIGN KEY (mag_id) REFERENCES G11_magasin(mag_id),
-  PRIMARY KEY (cap_id, mag_id)
+  PRIMARY KEY (cap_id, mag_id),
   stock_quantite INT CHECK (stock_quantite > 0) NOT NULL
 );
 
