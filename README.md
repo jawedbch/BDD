@@ -48,6 +48,6 @@ Par la suite on travaillera avec Postgresql
 - `tables.sql` : Création des tables + Insertion des données capsules, magasins et stocks
 - `requetes.sql` : Requêtes de test SQL
 - `README.md` : ce fichier
-- `LICENSE` : licence du projet (MIT, par exemple)
+- `LICENSE` : licence du projet
 
 
